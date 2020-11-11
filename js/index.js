@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['KW 14', 'KW 15', 'KW 16','KW 17','KW 18',]
+      categories: ['Start', 'Sprint 1', 'Sprint 2','Sprint 3','Sprint 4',]
     },
     yAxis: {
       min: 0,
@@ -34,7 +34,7 @@ $(function () {
         name: 'Ideal',
         color: 'rgba(0,255,0,0.25)',
         lineWidth: 1,
-        data: [1, 50, 100, 150, 200, 250, 300]
+        data: [1, 10, 20, 30, 40, 50, 60]
       }, {
         name: 'Actual',
         color: 'rgba(0,120,200,0.75)',
@@ -48,7 +48,7 @@ $(function () {
         KWker: {
           radius: 2
         },
-        data: [278,278,278,278,278,278,278,278,278]
+        data: [100,100,100,100,100]
       }
     ]
   });
